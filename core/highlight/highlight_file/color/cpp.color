@@ -1,0 +1,30 @@
+reserved
+0 inline
+0 template
+0 friend
+0 struct
+0 system
+0 return
+0 break
+0 continue
+0 const
+
+pair
+1 ( )
+1 [ ]
+2 " "
+2 ' '
+2 /* */
+
+type
+0 int
+0 float
+0 double
+0 string
+0 char
+
+quotation
+3 //
+
+precompilation
+3 #
