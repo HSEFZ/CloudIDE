@@ -12,6 +12,7 @@ body {
 	top: 0;
 	width: 80%;
 	opacity: 0.9;
+	overflow: hidden;
 }
 
 h1 {
@@ -70,15 +71,13 @@ a:link, a:visited {
 .smalltitle {
 	color: #ffffff;
 	font-size: 25px;
-	position: absolute;
-	left: 2%;
 	font-family: "Comic Sans MS";
+	padding: 0 2%;
+	margin-bottom: -10px;
 }
 
 #left {
-	position: absolute;
-	top: 7%;
-	left: 4%;
+	margin-left: 4%;
 	color: #ffffff;
 	font-family: "Berlin Sans FB Demi";
 	font-size: 20px;
