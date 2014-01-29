@@ -19,8 +19,8 @@ inline int read_color (std::string const& location) {
 					 
 					sscanf (line.c_str (), "%*d %s %s", beginning, ending);
 					
-					word_list.push_back (word (beginning, -type	, div_count));
-					word_list.push_back (word (ending	, type	, div_count));
+					word_list.push_back (word (beginning, -type, div_count));
+					word_list.push_back (word (ending, type, div_count));
 				} else {
 					char character [LEN_MAX];
 					 
