@@ -47,8 +47,13 @@
 				</div>
 			</div>
 			<div class="loginwindowcontent">
-			<div class="smalltitle">
-				Please Login or <a href="#">register a new account</a>
+				<form name="input" action="login.php" method="post">
+					<div id="username">Username:
+					<input type="text" name="username">
+					</div>
+					<br>
+					<input type="submit" value="submit">
+				</form>
 			</div>
 			</div>
 		</div>
