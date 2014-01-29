@@ -28,6 +28,15 @@
 				<li>
 					2014/1/29 Basic CSS and frames
 				</li>
+				<li>
+					2014/1/29 Highligh Core added
+				</li>
+				<li>
+					2014/1/29 GitHub Synced
+				</li>
+				<li>
+					2014/1/29 login page created
+				</li>
 			</ul>
 		</div>
 		<div class="rightside">

@@ -1,6 +1,6 @@
 body {
 	width: 99%;
-	background-color: #dddddd;
+	background-color: #bbbbbb;
 }
 
 .container {
@@ -41,7 +41,7 @@ a:link, a:visited {
 }
 
 .leftside {
-	background-color: #444444;
+	background-color: #333333;
 	position: absolute;
 	left: 12%;
 	width: 35%;
@@ -53,7 +53,7 @@ a:link, a:visited {
 }
 
 .rightside {
-	background-color: #999999;
+	background-color: #888888;
 	position: absolute;
 	right: 12%;
 	width: 35%;
@@ -76,4 +76,7 @@ a:link, a:visited {
 	top: 7%;
 	left: 4%;
 	color: #ffffff;
+	font-family: "Berlin Sans FB Demi";
+	font-size: 20px;
 }
+
