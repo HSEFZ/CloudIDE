@@ -23,7 +23,7 @@ h1 {
 
 .button {
 	background-color: #000000;
-	font-family: "Arial Unicode MS";
+	font-family: "Berlin Sans FB";
 	font-size: 30px;
 	width: 250px;
 	border-style: solid;
@@ -38,4 +38,19 @@ h1 {
 a:link, a:visited {
 	color: rgb(255, 128, 0);
 	text-decoration:none;
+}
+
+.leftside {
+	background-color: #777777;
+	position: absolute;
+	left: 12%;
+	width: 35%;
+	height: 50%;	
+}
+.rightside {
+	background-color: #999999;
+	position: absolute;
+	right: 12%;
+	width: 35%;
+	height: 50%;
 }

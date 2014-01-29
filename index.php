@@ -17,9 +17,12 @@
 			</a>
 			</div>
 		</center>
+		<br><br>
 		<div class="leftside">
+			testword
 		</div>
 		<div class="rightside">
+			testword
 		</div>
 	</div>
 </body>
