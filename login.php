@@ -28,6 +28,21 @@
 		</h1>
 		<div class="loginwindow">
 			<div class="loginwindowhead">
+				CloudIDE
+			</div>
+			<div class="separate">
+			</div>
+			<div class="loginwindowbutton">
+				Home
+			</div>
+			<div class="loginwindowbutton">
+				Dashboard
+			</div>
+			<div class="loginwindowbutton">
+				Editor
+			</div>
+			<div class="loginwindowbutton">
+				About
 			</div>
 			<div class="smalltitle">
 				Please Login or <a href="#">register a new account</a>
