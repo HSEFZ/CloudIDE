@@ -41,8 +41,12 @@
 			Welcome to Cloud IDE!	
 		</h1>
 		<div class="loginwindow">
+			<div class="loginwindowheader">
+			</div>
+			<div class="loginwindowcontent">
 			<div class="smalltitle">
 				Please Login or <a href="#">register a new account</a>
+			</div>
 			</div>
 		</div>
 	</div>
