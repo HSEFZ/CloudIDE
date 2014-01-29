@@ -17,6 +17,10 @@
 			</a>
 			</div>
 		</center>
+		<div class="leftside">
+		</div>
+		<div class="rightside">
+		</div>
 	</div>
 </body>
 </html>
