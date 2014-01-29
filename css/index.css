@@ -1,0 +1,29 @@
+body {
+	width: 100%;
+	background-color: #66eeff;
+}
+
+.container {
+	position: absolute;
+	left: 10%;
+	right: 10%;
+	background-color: #6699ff;
+	height: 100%;
+	top: 0;
+	width: 80%;
+}
+
+h1 {
+	color: #ffffff;
+	font-family: "Berlin Sans FB Demi";
+	font-size: 80px;
+	text-align: center;
+}
+
+.button {
+	background-color: #66ff66;
+	font-family: "Arial Unicode MS";
+	font-size: 30px;
+	color: #555555;
+	width: 250px;
+}
