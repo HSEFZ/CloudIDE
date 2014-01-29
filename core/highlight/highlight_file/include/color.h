@@ -1,8 +1,6 @@
 inline int read_color (std::string const& location) {
 	std::string real_location = "./color/" + location;
 	
-	printf ("%s\n", real_location.c_str ());
-	
 	FILE* color = fopen (real_location.c_str (), "r");
 	
 	char div_name [LEN_MAX];
@@ -37,14 +35,6 @@ inline int read_color (std::string const& location) {
 		
 		div_count ++;
 	}
-	
-	/**	SHOULD BE DELETED	--test	*/
-	
-	printf ("%d\n", word_list.size ());
-	for (int i = 0; i < (int)word_list.size (); ++i)
-		printf ("%s %d %d\n", word_list [i].data.c_str (), word_list [i].type, word_list [i].div);
-	
-	/**	DELETE	*/
 	
 	fclose (color);
 }
