@@ -20,30 +20,25 @@
 	<div class="navigator">
 		<div class="navigator-icon">
 		</div>
-		<div class="navigator-home">
+		<div class="separate">
+		</div>
+		<div class="navigator-button">
+			Home
+		</div>
+		<div class="navigator-button">
+			Dashboard
+		</div>
+		<div class="navigator-button">
+			Editor
+		</div>
+		<div class="navigator-button">
+			About
 		</div>
 	</div>
 		<h1>
 			Welcome to Cloud IDE!	
 		</h1>
 		<div class="loginwindow">
-			<div class="loginwindowhead">
-				CloudIDE
-			</div>
-			<div class="separate">
-			</div>
-			<div class="loginwindowbutton">
-				Home
-			</div>
-			<div class="loginwindowbutton">
-				Dashboard
-			</div>
-			<div class="loginwindowbutton">
-				Editor
-			</div>
-			<div class="loginwindowbutton">
-				About
-			</div>
 			<div class="smalltitle">
 				Please Login or <a href="#">register a new account</a>
 			</div>
