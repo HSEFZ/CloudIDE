@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="css/index.css" type="text/css" />
 	<link rel="stylesheet" href="css/login.css" type="text/css" />
 	<link rel="stylesheet" href="css/navigator.css" type="text/css" />
+	<title>Login - CloudIDE</title>
 </head>
 
 <body>
