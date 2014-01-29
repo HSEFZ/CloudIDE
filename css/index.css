@@ -21,9 +21,16 @@ h1 {
 }
 
 .button {
-	background-color: #66ff66;
+	background-color: #777777;
 	font-family: "Arial Unicode MS";
 	font-size: 30px;
-	color: #555555;
 	width: 250px;
+	border-style: solid;
+	border-radius: 15px;
+	border-color: #666 #666 #444 #444;
+}
+
+a:link, a:visited {
+	color: #dddddd;
+	text-decoration:none;
 }

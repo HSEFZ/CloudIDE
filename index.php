@@ -10,7 +10,13 @@
 		<h1>
 			Welcome to Cloud IDE!
 		</h1>
-		<center><div class="button">Getting Started!</center>
+		<center>
+			<div class="button">
+			<a href="#">
+				Getting Started!
+			</a>
+			</div>
+		</center>
 	</div>
 </body>
 </html>
