@@ -50,6 +50,7 @@ a:link, a:visited {
 	border-radius: 3px;
 	border-color: #999 #999 #999 #999;
 	opacity: 0.7;
+	overflow: hidden;
 }
 
 .rightside {
@@ -61,6 +62,7 @@ a:link, a:visited {
 	border-style: solid;
 	border-radius: 3px;
 	border-color: #666 #666 #666 #666;
+	overflow: hidden;
 }
 
 .smalltitle {
