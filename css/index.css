@@ -1,5 +1,5 @@
 body {
-	width: 100%;
+	width: 99%;
 	background-color: #66eeff;
 }
 
@@ -11,6 +11,7 @@ body {
 	height: 100%;
 	top: 0;
 	width: 80%;
+	opacity: 0.9;
 }
 
 h1 {
@@ -28,6 +29,10 @@ h1 {
 	border-style: solid;
 	border-radius: 15px;
 	border-color: #666 #666 #444 #444;
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
 }
 
 a:link, a:visited {
