@@ -11,10 +11,18 @@
 }
 
 .navigator-button {
-	width: 7%;
-	height: 70%;
+	position: relative;
+	width: 12%;
+	height: 77%;
 	background-color: #444444;
 	border-style: solid;
 	border-radius: 3px;
 	border-color: #444 #444 #222 #222;
+	display: inline;
+	float: left;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	overflow: hidden;
+	font-family: "Berlin Sans FB Demi";
 }
