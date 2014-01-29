@@ -42,6 +42,9 @@
 		</h1>
 		<div class="loginwindow">
 			<div class="loginwindowheader">
+				<div class="loginwindowtitle">
+				Login Window
+				</div>
 			</div>
 			<div class="loginwindowcontent">
 			<div class="smalltitle">

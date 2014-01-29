@@ -21,7 +21,12 @@
 }
 
 .loginwindowtitle {
-	left: 38.2%;
+	position: absolute;
+	color: #ffffff;
+	left: 28.2%;
+	top: 13%;
+	font-size: 22px;
+	font-family: "Aparajita";
 }
 
 .loginwindowcontent {
