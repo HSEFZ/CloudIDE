@@ -1,7 +1,9 @@
 inline int read_color (std::string const& location) {
 	std::string real_location = "./color/" + location;
 	
-	FIN* color = fopen (real_location.c_str (), "r");
+	printf ("%s\n", real_location.c_str ());
+	
+	FILE* color = fopen (real_location.c_str (), "r");
 	
 	char div_name [LEN_MAX];
 	
@@ -12,7 +14,22 @@ inline int read_color (std::string const& location) {
 			std::string line = fgetline (color);
 			
 			if (line != "") {
-				/**	UNFINISHED	--Read the details of the line.	*/
+				int type = line [0] - '0';
+				
+				if (type == 1 || type == 2) {
+					char beginning [LEN_MAX], ending [LEN_MAX];
+					 
+					sscanf (line.c_str (), "%*d %s %s", beginning, ending);
+					
+					word_list.push_back (word (beginning, -type	, div_count));
+					word_list.push_back (word (ending	, type	, div_count));
+				} else {
+					char character [LEN_MAX];
+					 
+					sscanf (line.c_str (), "%*d %s", character);
+					
+					word_list.push_back (word (character, type, div_count));
+				}
 			} else {
 				break;
 			}
@@ -20,6 +37,14 @@ inline int read_color (std::string const& location) {
 		
 		div_count ++;
 	}
+	
+	/**	SHOULD BE DELETED	--test	*/
+	
+	printf ("%d\n", word_list.size ());
+	for (int i = 0; i < (int)word_list.size (); ++i)
+		printf ("%s %d %d\n", word_list [i].data.c_str (), word_list [i].type, word_list [i].div);
+	
+	/**	DELETE	*/
 	
 	fclose (color);
 }

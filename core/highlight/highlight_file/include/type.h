@@ -27,7 +27,7 @@ inline bool find_type (std::string const& type) {
 	bool exist = false;
 	char type_name [LEN_MAX], type_location [LEN_MAX];
 	
-	while (fscanf (content, "%s|%s\n", type_name, type_location) != EOF) {
+	while (fscanf (content, "%s %s\n", type_name, type_location) != EOF) {
 		if (type_name == type) {
 			exist = true;
 			break;
@@ -45,7 +45,7 @@ inline std::string type_location (std::string const& type) {
 	std::string location;
 	char type_name [LEN_MAX], type_location [LEN_MAX];
 	
-	while (fscanf (content, "%s|%s\n", type_name, type_location) != EOF) {
+	while (fscanf (content, "%s %s\n", type_name, type_location) != EOF) {
 		if (type_name == type) {
 			location = type_location;
 			break;
