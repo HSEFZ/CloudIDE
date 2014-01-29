@@ -24,16 +24,16 @@
 		<div class="separate">
 		</div>
 		<div class="navigator-button">
-			Home
+			<a href="index.php" class="awhite">Home</a>
 		</div>
 		<div class="navigator-button">
-			Dashboard
+			<a href="#" class="awhite">Dashboard</a>
 		</div>
 		<div class="navigator-button">
-			Editor
+			<a href="#" class="awhite">Editor</a>
 		</div>
 		<div class="navigator-button">
-			About
+			<a href="#" class="awhite">About</a>
 		</div>
 	</div>
 		<h1>
