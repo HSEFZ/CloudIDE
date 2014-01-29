@@ -17,6 +17,12 @@
 
 <body>
 	<div class="container">
+	<div class="navigator">
+		<div class="navigator-icon">
+		</div>
+		<div class="navigator-home">
+		</div>
+	</div>
 		<h1>
 			Welcome to Cloud IDE!	
 		</h1>
