@@ -19,6 +19,8 @@ h1 {
 	font-family: "Berlin Sans FB Demi";
 	font-size: 80px;
 	text-align: center;
+	position: relative;
+	top: 3%;
 }
 
 .button {
