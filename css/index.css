@@ -1,5 +1,5 @@
 body {
-	width: 99%;
+	margin: 0;
 	background-color: #bbbbbb;
 }
 
@@ -44,7 +44,7 @@ a:link, a:visited {
 }
 
 .leftside {
-	background-color: #333333;
+	background-color: #555;
 	position: absolute;
 	left: 12%;
 	width: 35%;
@@ -57,7 +57,7 @@ a:link, a:visited {
 }
 
 .rightside {
-	background-color: #888888;
+	background-color: #888;
 	position: absolute;
 	right: 12%;
 	width: 35%;
@@ -79,7 +79,7 @@ a:link, a:visited {
 #left {
 	margin-left: 4%;
 	color: #ffffff;
-	font-family: "Berlin Sans FB Demi";
-	font-size: 20px;
+	font-family: "Comic Sans MS";
+	font-size: 18px;
 }
 

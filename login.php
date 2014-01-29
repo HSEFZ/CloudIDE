@@ -49,10 +49,10 @@
 			<div class="loginwindowcontent">
 				<form name="input" action="login.php" method="post">
 					<div id="username">Username:
-					<input type="text" name="username">
+					<input class="loginwindowinput" type="text" name="username">
 					</div>
 					<div id="password">Password:
-					<input type="password" name="password">
+					<input class="loginwindowinput" type="password" name="password">
 					</div>
 					<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<input type="submit" value="submit">

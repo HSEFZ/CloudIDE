@@ -25,12 +25,20 @@
 	color: #ffffff;
 	left: 28.2%;
 	top: 13%;
-	font-size: 22px;
-	font-family: "Aparajita";
+	font-size: 20px;
+	font-family: "Arial";
 }
 
 .loginwindowcontent {
 	position: absolute;
 	top: 20%;
 	left: 20%;
+	font-family: "Arial";
+}
+
+.loginwindowinput {
+	background: none;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #888 #666 #444 #222;
 }

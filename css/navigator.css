@@ -4,7 +4,7 @@
         width: 90%;
         left: 5%;
         height: 6%;
-        background-color: #888888;
+        background-color: #888;
         border-style: solid;
         border-radius: 10px;
         border-color: #888 #666 #444 #222;
@@ -12,12 +12,12 @@
 
 .navigator-button {
 	position: relative;
-	width: 12%;
+	width: 15%;
 	height: 77%;
-	background-color: #444444;
+	background-color: #666;
 	border-style: solid;
 	border-radius: 3px;
-	border-color: #444 #444 #222 #222;
+	border-color: #666 #666 #555 #555;
 	display: inline;
 	float: left;
 	color: #ffffff;
