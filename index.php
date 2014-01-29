@@ -19,6 +19,14 @@
 		</center>
 		<br><br>
 		<div class="leftside">
+			<div class="smalltitle">
+				New Features and Updates
+			</div>
+			<ul id="left">
+				<li>
+					2014/1/29 Basic CSS and frames
+				</li>
+			</ul>
 		</div>
 		<div class="rightside">
 		</div>

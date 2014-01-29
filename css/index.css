@@ -41,7 +41,7 @@ a:link, a:visited {
 }
 
 .leftside {
-	background-color: #666666;
+	background-color: #444444;
 	position: absolute;
 	left: 12%;
 	width: 35%;
@@ -49,7 +49,9 @@ a:link, a:visited {
 	border-style: solid;
 	border-radius: 3px;
 	border-color: #999 #999 #999 #999;
+	opacity: 0.7;
 }
+
 .rightside {
 	background-color: #999999;
 	position: absolute;
@@ -59,4 +61,19 @@ a:link, a:visited {
 	border-style: solid;
 	border-radius: 3px;
 	border-color: #666 #666 #666 #666;
+}
+
+.smalltitle {
+	color: #ffffff;
+	font-size: 25px;
+	position: absolute;
+	left: 2%;
+	font-family: "Comic Sans MS";
+}
+
+#left {
+	position: absolute;
+	top: 7%;
+	left: 4%;
+	color: #ffffff;
 }
