@@ -1,0 +1,20 @@
+.navigator {
+        position: absolute;
+        top: 3%;
+        width: 90%;
+        left: 5%;
+        height: 6%;
+        background-color: #888888;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: #888 #666 #444 #222;
+}
+
+.navigator-button {
+	width: 7%;
+	height: 70%;
+	background-color: #444444;
+	border-style: solid;
+	border-radius: 3px;
+	border-color: #444 #444 #222 #222;
+}
