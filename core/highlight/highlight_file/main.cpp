@@ -15,8 +15,9 @@ int main (int argc, char** argv) {
 		
 		std::string type = get_type (filename);
 		
-		if (type == "" || !find_type (type))
+		if (type == "" || !find_type (type)) {
 			type = "original";
+		}
 		
 		read_color (type_location (type));
 		

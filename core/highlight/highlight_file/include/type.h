@@ -1,19 +1,21 @@
 inline std::string get_type (std::string const& filename) {
-	int length = filename.length ();
+	int length = (int)filename.length ();
 	
 	int dot_position = -1;
 	
-	for (int i = length - 1; i >= 0; --i)
+	for (int i = length - 1; i >= 0; --i) {
 		if (filename [i] == '.') {
 			dot_position = i;
 			break;
 		}
+	}
 	
 	if (dot_position >= 0) {
 		std::string type = "";
 		
-		for (int i = dot_position + 1; i < length; ++i)
+		for (int i = dot_position + 1; i < length; ++i) {
 			type += filename [i];
+		}
 		
 		return type;
 	} else {

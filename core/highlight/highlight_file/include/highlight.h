@@ -7,7 +7,13 @@ inline void print_highlight (std::string const& input_filename, std::string cons
 	while (fgetline (input, line)) {
 		/**	UNFINISHED	--AC Automata	*/
 		
-		/**	UNFINISHED	--scan the string (line)	*/ 
+		/**	UNFINISHED	--scan the string (line)	*/
+		
+		int length = (int)line.length ();
+		
+		for (int i = 0; i < length; ++i) {
+			
+		}
 	}
 	
 	fclose (input);
