@@ -100,3 +100,11 @@
 	font-size: 23px;
 	text-align: center;
 }
+
+.registerhint {
+	position: absolute;
+	top: 15%;
+	left: 14%;
+	font-family: "Bernard MT Condensed";
+	font-size: 30px;
+}
