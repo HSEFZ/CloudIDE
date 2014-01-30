@@ -52,6 +52,7 @@
 	top: 5%;
 	width: 60%;
 	height: 23px;
+	font-family: "A-OTF Kocho Std Heavy";
 }
 
 #password {
@@ -59,6 +60,7 @@
 	top: 30%;
 	width: 60%;
 	height: 23px;
+	font-family: "A-OTF Kocho Std Heavy";
 }
 
 .submitbutton {
@@ -69,5 +71,14 @@
 	height: 30px;
 	font-size: 20px;
 	width: 80px;
+}
+
+.division {
+	position: absolute;
+	left: 55%;
+	background-color: #000;
+	height: 90%;
+	top: 10%;
+	width: 1%;
 }
 

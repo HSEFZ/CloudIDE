@@ -58,6 +58,10 @@
 					<input type="submit" value="Login" class="button submitbutton">
 				</form>
 			</div>
+			<div class="division">
+			</div>
+			<div class="register">
+			</div>
 			</div>
 		</div>
 	</div>
