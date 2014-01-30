@@ -82,3 +82,10 @@
 	width: 1%;
 }
 
+.register {
+	position: absolute;
+	left:60%;
+	height: 90%;
+	top: 10%;
+	width: 40%;
+}

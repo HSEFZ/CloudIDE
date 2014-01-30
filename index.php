@@ -38,12 +38,12 @@
 				<li>
 					2014/1/29 Highligh Core added
 				</li>
-				<li>
+				<!-- if the screen is too small<li>
 					2014/1/29 GitHub Synced
 				</li>
 				<li>
 					2014/1/29 login page created
-				</li>
+				</li>-->
 				<li>
 					<a href="history.php">more...</a>
 				</li>
