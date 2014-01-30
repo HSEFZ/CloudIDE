@@ -1,6 +1,6 @@
 #include "./include/header.h"
 #include "./include/constant.h"
-#include "./include/variable.h" 
+#include "./include/variable.h"
 
 #include "./include/io.h"
 

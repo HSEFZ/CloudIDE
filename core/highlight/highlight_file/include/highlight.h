@@ -3,7 +3,7 @@ inline void print_highlight (std::string const& input_filename, std::string cons
 	FILE* output = fopen (output_filename.c_str (), "w");
 	
 	std::string line;
-	 
+	
 	while (fgetline (input, line)) {
 		int length = (int)line.length ();
 		

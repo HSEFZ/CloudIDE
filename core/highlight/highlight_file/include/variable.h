@@ -22,6 +22,11 @@ int div_count;
 std::map < std::string, int > div_number;
 std::vector < word > word_list;
 
+int pair_count;
+
+std::map < std::string, int > pair_number;
+std::vector < bool > pair_boolean;
+
 /**	Variables for highlight.h	*/
 
 std::vector < word > belong;

@@ -21,6 +21,13 @@ inline int read_color (std::string const& location) {
 					
 					word_list.push_back (word (beginning, -type, div_count));
 					word_list.push_back (word (ending, type, div_count));
+					
+					pair_number [beginning] = pair_count;
+					pair_number [ending] = pair_count;
+					
+					pair_boolean.push_back (false);
+					
+					pair_count ++;
 				} else {
 					char character [LEN_MAX];
 					 
