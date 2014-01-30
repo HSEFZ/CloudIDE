@@ -26,6 +26,12 @@
 			</div>
 			<ul id="left">
 				<li>
+					2014/1/30 login window created
+				</li>
+				<li>
+					2014/1/30 core::Highlight updated
+				</li>
+				<li>
 					2014/1/29 Basic CSS and frames
 				</li>
 				<li>
