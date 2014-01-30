@@ -4,6 +4,12 @@ struct word {
 	std::string data;
 	int type, div;
 	
+	inline word () {
+		data = "";
+		type = 0;
+		div = 0;
+	}
+	
 	inline word (std::string const& _data, int const& _type, int const& _div) {
 		data = _data;
 		type = _type;
