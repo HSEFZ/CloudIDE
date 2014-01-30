@@ -48,10 +48,10 @@
 			</div>
 			<div class="loginwindowcontent">
 				<form name="input" action="login.php" method="post">
-					<div id="username">Username:
+					<div id="username"><strong>Username:</strong>
 					<input class="loginwindowinput" type="text" name="username">
 					</div>
-					<div id="password">Password:
+					<div id="password"><strong>Password:</strong>
 					<input class="loginwindowinput" type="password" name="password">
 					</div>
 					<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -61,6 +61,12 @@
 			<div class="division">
 			</div>
 			<div class="register">
+				<div class="registerhint">
+					Haven't got an account yet?
+				</div>
+				<div class="button regpos">
+					Register Now!
+				</div>
 			</div>
 			</div>
 		</div>
