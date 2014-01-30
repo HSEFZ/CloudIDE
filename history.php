@@ -20,12 +20,11 @@
 			</div>
 		</center>
 		<br><br>
-		<div class="leftside">
+		<div class="history">
 			<div class="smalltitle">
 				New Features and Updates
 			</div>
 			<ul id="left">
-				<!-- see history.php -->
 				<li>
 					2014/1/30 login window created
 				</li>
@@ -44,12 +43,7 @@
 				<li>
 					2014/1/29 login page created
 				</li>
-				<li>
-					<a href="history.php">more...</a>
-				</li>
 			</ul>
-		</div>
-		<div class="rightside">
 		</div>
 	</div>
 </body>
