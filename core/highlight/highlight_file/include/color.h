@@ -8,6 +8,8 @@ inline int read_color (std::string const& location) {
 	while (fscanf (color, "%s\n", div_name) != EOF) {
 		div_number [div_name] = div_count;
 		
+		div_string.push_back (div_name);
+		
 		while (true) {
 			std::string line = fgetline (color);
 			

@@ -39,11 +39,41 @@ inline void print_highlight (std::string const& input_filename, std::string cons
 		}
 		*/
 		
-		/**	UNFINISHED	--scan the string (line)	*/
+		bool force_color = false; 
 		
-		for (int i = 0; i < length; ++i) {
-			
+		for (int i = 0; i < length; ) {
+			if (belong [i].data == "" || force_color) {
+				fprintf (output, "%c", line [i]);
+				
+				i ++;
+			} else {
+				int word_length = (int)belong [i].data.length ();
+				
+				if (belong [i].type == 1 || belong [i].type == -1) {
+					fprintf (output, "<span class = '%s'>%s</span>", div_string [belong [i].div].c_str (), belong [i].data.c_str ());
+				} else if (belong [i].type == 2 || belong [i].type == -2) {
+					if (belong [i].type == 2) {
+						fprintf (output, "<span class = '%s'>%s", div_string [belong [i].div].c_str (), belong [i].data.c_str ());
+					} else {
+						fprintf (output, "</span>");
+					}
+					
+					force_color ^= 1;
+				} else {
+					fprintf (output, "<span class = '%s'>%s</span>", div_string [belong [i].div].c_str (), belong [i].data.c_str ());
+				}
+				
+				i += word_length;
+			}
 		}
+/**		
+		for (int i = 0; i < (int)pair_boolean.size (); ++i) {
+			if (pair_boolean [i]) {
+				
+			}
+		}
+*/		
+		fprintf (output, "<br>\n");
 	}
 	
 	fclose (input);
