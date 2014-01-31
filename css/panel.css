@@ -1,4 +1,13 @@
-.{
+.window {
+	position: absolute;
+	top: 10%;
+	width: 90%;
+	left: 5%;
+	height: 85%;
+	background-color: #bbb;
+	border-style: solid;
+	border-color: #777 #888 #777 #888;
+
 }
 
 .{
