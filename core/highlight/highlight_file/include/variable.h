@@ -20,6 +20,8 @@ struct word {
 int div_count;
 
 std::map < std::string, int > div_number;
+std::vector < std::string > div_string;
+
 std::vector < word > word_list;
 
 int pair_count;
