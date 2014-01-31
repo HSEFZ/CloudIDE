@@ -25,3 +25,17 @@
 	background-color: #555;
 	left: 20%;
 }
+
+.content {
+	position: absolute;
+	top: 1%;
+	height: 95%;
+	left: 3%;
+	width: 94%;
+	background-color: none;
+}
+
+.tag {
+	position: relative;
+	margin-top: 10px;
+}
