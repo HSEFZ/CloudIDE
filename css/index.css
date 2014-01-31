@@ -3,6 +3,15 @@ body {
 	background-color: #bbbbbb;
 }
 
+.panel {
+	background-color: none;
+	top: 0%;
+	left: 0%;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+}
+
 .container {
 	position: absolute;
 	left: 10%;

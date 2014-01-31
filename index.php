@@ -5,9 +5,16 @@
 	<meta charset="utf-8" />
 	<title>Welcome to CloudIDE!</title>
 	<link rel="stylesheet" href="css/index.css" type="text/css" />
+	<script>
+		function changeToAdminHome(){
+			window.location.href="admin.php";
+		}
+	</script>
 </head>
 
 <body>
+	<div class="panel" OnClick="changeToAdminHome()">
+	</div>
 	<div class="container">
 		<h1>
 			Welcome to Cloud IDE!
