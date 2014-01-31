@@ -10,8 +10,18 @@
 
 }
 
-.{
+.list {
+	position: absolute;
+	top: 1%;
+	width: 15%;
+	left: 0%;
 }
 
-.{
+.admincontainer {
+	position: absolute;
+	top: 0%;
+	width: 80%;
+	height: 100%;
+	background-color: #555;
+	left: 20%;
 }

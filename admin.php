@@ -49,30 +49,32 @@
 				</li>
 			</ul>
 		</div>
-		<div class="content">
-			<div class="tag">
-				<div class="tagtitle">Server Status</div>
-				<div class="tagcontent">
+		<div class="admincontainer">
+			<div class="content">
+				<div class="tag">
+					<div class="tagtitle">Server Status</div>
+					<div class="tagcontent">
+					</div>
 				</div>
-			</div>
-			<div class="tag">
-				<div class="tagtitle">Environment Options</div>
-				<div class="tagcontent">
+				<div class="tag">
+					<div class="tagtitle">Environment Options</div>
+					<div class="tagcontent">
+					</div>
 				</div>
-			</div>
-			<div class="tag">
-				<div class="tagtitle">MySQL Configuration</div>
-				<div class="tagcontent">
+				<div class="tag">
+					<div class="tagtitle">MySQL Configuration</div>
+					<div class="tagcontent">
+					</div>
 				</div>
-			</div>
-			<div class="tag">
-				<div class="tagtitle">Stop/Start/Restart</div>
-				<div class="tagcontent">
+				<div class="tag">
+					<div class="tagtitle">Stop/Start/Restart</div>
+					<div class="tagcontent">
+					</div>
 				</div>
-			</div>
-			<div class="tag">
-				<div class="tagtitle">Plug-ins</div>
-				<div class="tagcontent">
+				<div class="tag">
+					<div class="tagtitle">Plug-ins</div>
+					<div class="tagcontent">
+					</div>
 				</div>
 			</div>
 		</div>
