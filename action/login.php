@@ -8,6 +8,7 @@
 	include("connection.php");
 	function authorize(){
 		mysqlcon();
+		sqlclose();
 		return;
 	}
 	function failure_notice($str) {
