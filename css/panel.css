@@ -14,7 +14,7 @@
 	position: absolute;
 	top: 1%;
 	width: 15%;
-	left: 0%;
+	left: 2%;
 }
 
 .admincontainer {
@@ -38,4 +38,44 @@
 .tag {
 	position: relative;
 	margin-top: 10px;
+}
+
+.menu {
+	position: relative;
+	top: 0;
+}
+
+.smalltag {
+	position: relative;
+	margin-top: 10px;
+	font-size: 18px;
+	font-family: "Berlin Sans FB";
+	display: inline-block;
+	left: 0px;
+	width: 100%;
+	background-color: #ffffff;
+	text-align: center;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+.tag {
+	position: relative;
+	margin-bottom: 5px;
+	height: 100px;
+}
+
+.tagtitle {
+	position: absolute;
+	background-color: #000;
+	top: 0%;
+	color: #fff;
+	width: 100%;
+	height: 20px;
+}
+
+.tagcontent {
+	background-color: #ddd;
+	top: 20px;
+	height: 100px;
 }

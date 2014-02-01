@@ -31,23 +31,23 @@
 	</div>
 	<div class="window">
 		<div class="list">
-			<ul class="menu">
-				<li class="">
+			<span class="menu">
+				<span class="smalltag">
 					Server Status
-				</li>
-				<li class="">
+				</span>
+				<span class="smalltag">
 					Environment Options
-				</li>
-				<li class="">
+				</span>
+				<span class="smalltag">
 					MySQL Configuration
-				</li>
-				<li class="">
+				</span>
+				<span class="smalltag">
 					Stop/Start/Restart
-				</li>
-				<li class="">
+				</span>
+				<span class="smalltag">
 					Plug-ins
-				</li>
-			</ul>
+				</span>
+			</span>
 		</div>
 		<div class="admincontainer">
 			<div class="content">
