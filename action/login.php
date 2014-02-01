@@ -15,6 +15,7 @@
 	else if (!isset($_REQUEST["password"]) || $_REQUEST["password"]=="") {
 		failure_notice("Please Enter Password");
 	} else {
+		$authorize = 10086;
 		include("connection.php");
 	}
 ?>
