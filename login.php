@@ -47,7 +47,7 @@
 				</div>
 			</div>
 			<div class="loginwindowcontent">
-				<form name="input" action="login.php" method="post">
+				<form name="input" action="action/login.php" method="post">
 					<div id="username"><strong>Username:</strong>
 					<input class="loginwindowinput" type="text" name="username">
 					</div>

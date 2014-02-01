@@ -126,7 +126,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -171,8 +171,8 @@
 						"selection":
 						[
 							[
-								932,
-								932
+								689,
+								689
 							]
 						],
 						"settings":
@@ -181,10 +181,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 711.0,
+						"translation.y": 500.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -200,8 +200,8 @@
 						"selection":
 						[
 							[
-								86,
-								86
+								506,
+								506
 							]
 						],
 						"settings":
@@ -209,10 +209,10 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 780.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -241,7 +241,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -257,8 +257,8 @@
 						"selection":
 						[
 							[
-								1125,
-								1125
+								679,
+								679
 							]
 						],
 						"settings":
@@ -267,10 +267,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 391.0,
+						"translation.y": 122.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
