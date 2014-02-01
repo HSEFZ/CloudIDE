@@ -5,11 +5,6 @@
 </head>
 <body>
 <?php
-	include("connection.php");
-	function authorize(){
-		mysqlcon();
-		sqlclose();
-	}
 	function failure_notice($str) {
 		echo "<div class=\"failure\">" . $str . "</div>";
 		echo "<script>setInterval(\"window.location.href='../login.php'\",2000)</script>";
@@ -20,7 +15,7 @@
 	else if (!isset($_REQUEST["password"]) || $_REQUEST["password"]=="") {
 		failure_notice("Please Enter Password");
 	} else {
-		authorize();
+		include("connection.php");
 	}
 ?>
 </body>
