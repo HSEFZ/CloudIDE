@@ -5,7 +5,9 @@
 </head>
 <body>
 <?php
+	include("connection.php");
 	function authorize(){
+		mysqlcon();
 		return;
 	}
 	function failure_notice($str) {
