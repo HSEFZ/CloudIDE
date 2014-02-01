@@ -9,7 +9,6 @@
 	function authorize(){
 		mysqlcon();
 		sqlclose();
-		return;
 	}
 	function failure_notice($str) {
 		echo "<div class=\"failure\">" . $str . "</div>";

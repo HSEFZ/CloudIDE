@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"DB",
+				"DB_PSWD"
+			],
+			[
+				"mysql_c",
+				"mysql_connect"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
 				"back",
 				"background-color"
 			],
@@ -51,8 +63,33 @@
 			"file": "action/login.php",
 			"settings":
 			{
-				"buffer_size": 509,
+				"buffer_size": 631,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "action/connection.php",
+			"settings":
+			{
+				"buffer_size": 262,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "const/config.php",
+			"settings":
+			{
+				"buffer_size": 73,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/chen/ownCloud/informatics/lib/algorithms/skew_heap/skew_heap.cpp",
+			"settings":
+			{
+				"buffer_size": 548,
+				"line_ending": "Windows",
+				"name": "#include<cstdio>"
 			}
 		},
 		{
@@ -107,6 +144,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/chen/Desktop/temp.cpp",
 		"/C/Users/chen/Documents/GitHub/CloudIDE/css/panel.css"
 	],
 	"find":
@@ -142,7 +180,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -171,7 +209,7 @@
 						"translation.y": 461.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -187,8 +225,8 @@
 						"selection":
 						[
 							[
-								689,
-								689
+								867,
+								867
 							]
 						],
 						"settings":
@@ -225,10 +263,10 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1011.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -237,15 +275,71 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 509,
+						"buffer_size": 631,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								246,
-								246
+								180,
+								180
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "action/connection.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								257,
+								257
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "const/config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 73,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
 							]
 						],
 						"settings":
@@ -260,7 +354,36 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
+					"file": "/C/Users/chen/ownCloud/informatics/lib/algorithms/skew_heap/skew_heap.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								221
+							]
+						],
+						"settings":
+						{
+							"auto_name": "#include<cstdio>",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "login.php",
 					"semi_transient": false,
 					"settings":
@@ -282,14 +405,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 747.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "core/highlight/highlight_file/main.cpp",
 					"semi_transient": false,
 					"settings":
@@ -314,11 +437,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"file": "core/highlight/highlight_file/include/color.h",
 					"semi_transient": false,
 					"settings":
@@ -343,7 +466,7 @@
 						"translation.y": 122.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
