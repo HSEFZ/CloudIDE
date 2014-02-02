@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"D",
+				"DB_USER"
+			],
+			[
 				"DB",
 				"DB_PSWD"
 			],
@@ -60,10 +64,13 @@
 			}
 		},
 		{
+			"contents": "<html>\n<head>\n	<meta charset=\"utf-8\" />\n	<title>Redirecting...</title>\n</head>\n<body>\n<?php\n	function failure_notice($str) {\n		echo \"<div class=\\\"failure\\\">\" . $str . \"</div>\";\n		echo \"<script>setInterval(\\\"window.location.href='../login.php'\\\",2000)</script>\";\n	}\n	if (!isset($_REQUEST[\"username\"]) || $_REQUEST[\"username\"]==\"\") {\n		failure_notice(\"Please Enter Username\");\n	}\n	else if (!isset($_REQUEST[\"password\"]) || $_REQUEST[\"password\"]==\"\") {\n		failure_notice(\"Please Enter Password\");\n	} else {\n		$cmdt = 10086;\n		include(\"connection.php\");\n	}\n?>\n</body>\n</html>",
 			"file": "action/login.php",
+			"file_size": 597,
+			"file_write_time": 130357378841611944,
 			"settings":
 			{
-				"buffer_size": 631,
+				"buffer_size": 570,
 				"line_ending": "Windows"
 			}
 		},
@@ -71,8 +78,17 @@
 			"file": "action/connection.php",
 			"settings":
 			{
-				"buffer_size": 262,
+				"buffer_size": 296,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "action/authorize.php",
+			"settings":
+			{
+				"buffer_size": 8,
+				"line_ending": "Windows",
+				"name": "<?php"
 			}
 		},
 		{
@@ -180,7 +196,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -209,7 +225,7 @@
 						"translation.y": 461.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -238,7 +254,7 @@
 						"translation.y": 500.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -254,8 +270,8 @@
 						"selection":
 						[
 							[
-								1048,
-								1048
+								9,
+								9
 							]
 						],
 						"settings":
@@ -275,43 +291,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 631,
+						"buffer_size": 570,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								180,
-								180
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "action/connection.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 262,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								257,
-								257
+								510,
+								510
 							]
 						],
 						"settings":
@@ -326,7 +314,64 @@
 					"type": "text"
 				},
 				{
+					"buffer": 4,
+					"file": "action/connection.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								296,
+								296
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
 					"buffer": 5,
+					"file": "action/authorize.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								8
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "const/config.php",
 					"semi_transient": false,
 					"settings":
@@ -350,11 +395,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "/C/Users/chen/ownCloud/informatics/lib/algorithms/skew_heap/skew_heap.cpp",
 					"semi_transient": false,
 					"settings":
@@ -379,11 +424,11 @@
 						"translation.y": 720.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "login.php",
 					"semi_transient": false,
 					"settings":
@@ -408,11 +453,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "core/highlight/highlight_file/main.cpp",
 					"semi_transient": false,
 					"settings":
@@ -437,11 +482,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "core/highlight/highlight_file/include/color.h",
 					"semi_transient": false,
 					"settings":
@@ -466,7 +511,7 @@
 						"translation.y": 122.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
