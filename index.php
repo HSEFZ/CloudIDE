@@ -9,6 +9,9 @@
 		function changeToAdminHome(){
 			window.location.href="admin.php";
 		}
+		function changeToLoginPage(){
+			window.location.href="login.php";
+		}
 	</script>
 </head>
 
@@ -20,10 +23,10 @@
 			Welcome to Cloud IDE!
 		</h1>
 		<center>
-			<div class="button">
-			<a href="login.php">
-				Getting Started!
-			</a>
+			<div class="button" onclick="changeToLoginPage()">
+				<span class="index-button">
+					Getting Started!
+				</span>
 			</div>
 		</center>
 		<br><br>

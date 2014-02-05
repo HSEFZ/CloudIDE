@@ -25,7 +25,9 @@ body {
 }
 
 h1 {
-	color: #ffffff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#666));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-family: "Berlin Sans FB Demi";
 	font-size: 80px;
 	text-align: center;
@@ -47,8 +49,15 @@ h1 {
 	opacity: 0.8;
 }
 
+.index-button {
+	background: -webkit-gradient(linear, left top, left bottom, from(#f80), to(#840));
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
 a:link, a:visited {
 	color: rgb(255, 128, 0);
+	text-shadow: 2px 2px 1px #753;
 	text-decoration:none;
 }
 
