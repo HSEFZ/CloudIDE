@@ -7,7 +7,7 @@
 <?php
 	function failure_notice($str) {
 		echo "<div class=\"failure\">" . $str . "</div>";
-		echo "<script>setInterval(\"window.location.href='../login.php'\",2000)</script>";
+		echo "<script>setInterval(\"window.location.href='../login.php'\",1500)</script>";
 	}
 	if (!isset($_REQUEST["username"]) || $_REQUEST["username"]=="") {
 		failure_notice("Please Enter Username");
